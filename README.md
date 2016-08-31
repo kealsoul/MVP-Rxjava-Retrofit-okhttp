@@ -1,11 +1,12 @@
 # Rxjava-Retrofit+okhttp
 学习Rxjava-Retrofit过程中的实践，有很多不足之处，大家可以给我发私信，如果觉得有收获可以点击star<br>
+***
 封装Rxjava+Retrofit+okhttp，清晰的MVP架构，MVP绑定Activity（Fragment）生命周期，以避免内存泄露<br>
-**包结构**
-base：存放所有基础夫类<br>
-mvp：存放所有mvp类和主要界面的父类<br>
-Retrofit：存放Retrofit接口文件和配置文件<br>
-rxjava：存放rxjava的配置文件和回调文件<br>
+**包结构**<br>
+*base：存放所有基础夫类<br>
+*mvp：存放所有mvp类和主要界面的父类<br>
+*Retrofit：存放Retrofit接口文件和配置文件<br>
+*rxjava：存放rxjava的配置文件和回调文件<br>
 **封装每个Presenter都得初始化和销毁都在activity的生命周期里面进行。详情见：BasePresenter**
 ```java
 public class BasePresenter<V extends MainView> implements Presenter<V> {
