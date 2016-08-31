@@ -1,7 +1,7 @@
 # Rxjava-Retrofit+okhttp
 >学习Rxjava-Retrofit过程中的实践，有很多不足之处大家可以点击star来表对作者的唾弃之情。
     封装Rxjava+Retrofit+okhttp，清晰的MVP架构，MVP绑定Activity（Fragment）生命周期，以避免内存泄露
-                **包结构**
+**包结构**
                 base：存放所有基础夫类
                 mvp：存放所有mvp类和主要界面的父类
                 Retrofit：存放Retrofit接口文件和配置文件
@@ -44,7 +44,7 @@ public class BasePresenter<V extends MainView> implements Presenter<V> {
 }
 ```
 
-    **封装ServiceFactory，反射去获取我们自定义Service中的BASE_URL字段，统一的设置回调方式，统一的设置超时控制和缓存控制，使用gson解析**
+**封装ServiceFactory，反射去获取我们自定义Service中的BASE_URL字段，统一的设置回调方式，统一的设置超时控制和缓存控制，使用gson解析**
 ```java
 public class ServiceFactory {
 
