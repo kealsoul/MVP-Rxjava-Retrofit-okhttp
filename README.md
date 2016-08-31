@@ -1,6 +1,6 @@
 # Rxjava-Retrofit+okhttp
->学习Rxjava-Retrofit过程中的实践，有很多不足之处大家可以点击star来表对作者的唾弃之情。
-封装Rxjava+Retrofit+okhttp，清晰的MVP架构，MVP绑定Activity（Fragment）生命周期，以避免内存泄露
+学习Rxjava-Retrofit过程中的实践，有很多不足之处大家可以点击star来表对作者的唾弃之情。<br>
+>封装Rxjava+Retrofit+okhttp，清晰的MVP架构，MVP绑定Activity（Fragment）生命周期，以避免内存泄露<br>
 **包结构**
 base：存放所有基础夫类<br>
 mvp：存放所有mvp类和主要界面的父类<br>
