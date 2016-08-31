@@ -30,6 +30,14 @@ public class MainActivity extends MvpMainActivity<MainPresenter> implements Main
     }
 
     @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (mainPresenter != null) {
+            mainPresenter.detachView();
+        }
+    }
+
+    @Override
     public void success(MainModel model) {
         toast_short(model.getWeatherinfo().getCity()+model.getWeatherinfo().getIsRadar());
         textView.setText(model.getWeatherinfo().getCity()+model.getWeatherinfo().getIsRadar());

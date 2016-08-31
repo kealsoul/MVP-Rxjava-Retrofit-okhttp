@@ -113,8 +113,8 @@
     <orderEntry type="library" exported="" name="appcompat-v7-24.2.0" level="project" />
     <orderEntry type="library" exported="" name="adapter-rxjava-2.0.2" level="project" />
     <orderEntry type="library" exported="" name="rxandroid-1.1.0" level="project" />
-    <orderEntry type="library" exported="" name="rxjava-1.1.1" level="project" />
     <orderEntry type="library" exported="" name="converter-gson-2.0.2" level="project" />
+    <orderEntry type="library" exported="" name="rxjava-1.1.1" level="project" />
     <orderEntry type="library" exported="" name="support-fragment-24.2.0" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-24.2.0" level="project" />
     <orderEntry type="library" exported="" name="support-vector-drawable-24.2.0" level="project" />
